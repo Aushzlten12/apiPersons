@@ -1,2 +1,5 @@
-buildCommand: npm install
-startCommand: node index.js
+services:
+  - name: persons-api
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
